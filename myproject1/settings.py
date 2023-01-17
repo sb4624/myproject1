@@ -45,7 +45,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -86,7 +86,7 @@ DATABASES = {
 }
 """
 DATABASES = {
-        'default': dj_database_url.config(default='postgresql://postgres:postgres@localhost:5432/sb4262-webapps',
+        'default': dj_database_url.config(default='postgresql://postgres:postgres@localhost:5432/webapps1',
                                           conn_max_age=600)}
 
 # Password validation
