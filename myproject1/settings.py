@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-cup20-vdif#t+%vr2_62u2&9$%h9t4c$gof&7hmgt*_a@w7#f%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["sb4624-webapps1.onrender.com", '127.0.0.1']
+ALLOWED_HOSTS = ["sb4624.onrender.com", '127.0.0.1']
 
 
 # Application definition
